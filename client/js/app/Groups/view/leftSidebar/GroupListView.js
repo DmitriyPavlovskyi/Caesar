@@ -19,7 +19,6 @@
 
         render: function () {
             var $groupCollection = $('.group-collection'),
-                $leftSideBar = $('.group-list-footer'),
                 $button = $('.myGroups');
 
             this.$el.html(templates.groupListTpl);
